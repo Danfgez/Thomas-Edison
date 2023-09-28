@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    display: table;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+
+}
+
+#Header{
+    display: table;
+    background-image: url(../img/thomas.png);
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.capa{
+    background-color: bisque;
+    opacity: 0.3;
+    width: 100%;
+    height: 400px;
+}
+
+#Nav{
+    background-color: rgb(252, 168, 112); 
+    display: table;
+    width: 100%;
+}
+#Nav ol {
+    display: flex;
+    
+}
+ 
+#Nav ol li{
+    list-style:none;
+}
+
+#Nav ol li a {
+    text-decoration: none;
+    padding: 15px 25px 15px 25px;
+    display: table;
+    border: 1px solid rgba(234, 128, 28, 0.804);
+    color: rgb(0, 0, 0);
+}
+
+#Buttons{
+    display: grid;
+    justify-content: center;
+    background-color: rgb(233, 178, 141);
+    width: 100%;
+
+}
+
+
+
+.Botones{
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    border-radius: 5%;
+    border: solid 2px black;
+    background-color: rgb(240, 184, 106);
+    float: left;
+    margin: 5px 5px 5px 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(167, 9, 9);
+}
+
+.iconos{
+    width: 150px;
+    height: 150px;
+    margin: 5px 5px 5px 5px;
+}
+
+#footer{
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(252, 168, 112);
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-align: justify;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+}
+
+p{
+    text-align: justify;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#body{
+    display: table;
+    background-color: rgb(233, 178, 141);
+
+}
+
+
+.imageR{
+    float: right;
+    width: 150px;
+    height: 120px;
+    margin-left: 15px;
+    margin-right: 45px;
+    margin-bottom: 15px;
+}
+
+.imageL{
+    float: left;
+    width: 150px;
+    height: 120px;
+    margin-left: 45px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
